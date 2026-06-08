@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000000;
+  color: white;
+}
+
+.app {
+  padding: 40px;
+}
+
+.subtitle {
+  color: #94a3b8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #5c6ceb;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background: white;
+  border-radius: 12px;
+}
+
+.card h3 {
+  font-size: 16px;
+}
+
+.card p {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.card small {
+  color: #aecbf5;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.card a,
+.card button {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.card a {
+  background: #459845;
+  color: white;
+}
+
+.card button {
+  background: #ff0000;
+  color: white;
+  cursor: pointer;
+}
